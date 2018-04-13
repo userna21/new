@@ -8,6 +8,13 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
+
+group :production do
+
+  gem 'ruby', '2.3.7'
+
+end
+
 # Use mysql as the database for Active Record
 group :development, :test do 
   gem 'mysql2', '>= 0.3.18', '< 0.5'
